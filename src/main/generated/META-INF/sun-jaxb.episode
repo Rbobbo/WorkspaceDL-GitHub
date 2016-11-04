@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Questo file è stato generato dall'architettura JavaTM per XML Binding (JAXB) Reference Implementation, v2.2.11 
+Vedere <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Qualsiasi modifica a questo file andrà persa durante la ricompilazione dello schema di origine. 
+Generato il: 2016.11.03 alle 09:31:48 AM CET 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://webservices.samples.blog.com">
+    <schemaBindings map="false">
+      <package name="com.blog.samples.webservices"/>
+    </schemaBindings>
+    <bindings scd="~tns:DetailService">
+      <class ref="com.blog.samples.webservices.DetailService"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://com/blog/samples/webservices/servicedetail">
+    <schemaBindings map="false">
+      <package name="com.blog.samples.webservices.servicedetail"/>
+    </schemaBindings>
+    <bindings scd="tns:ServiceCallRequest">
+      <class ref="com.blog.samples.webservices.servicedetail.ServiceCallRequest"/>
+    </bindings>
+    <bindings scd="tns:ServiceCallResponse">
+      <class ref="com.blog.samples.webservices.servicedetail.ServiceCallResponse"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://rgi.it/WSPassPro">
+    <schemaBindings map="false">
+      <package name="com.pass.global"/>
+    </schemaBindings>
+    <bindings scd="~tns:WSPassProHelloWorldOperation">
+      <class ref="com.pass.global.WSPassProHelloWorldOperation"/>
+    </bindings>
+    <bindings scd="~tns:WSPassProHelloWorldOperationResponse">
+      <class ref="com.pass.global.WSPassProHelloWorldOperationResponse"/>
+    </bindings>
+    <bindings scd="~tns:calcolaPremio">
+      <class ref="com.pass.global.CalcolaPremio"/>
+    </bindings>
+    <bindings scd="~tns:msgCalcolaPremioRequest">
+      <class ref="com.pass.global.MsgCalcolaPremioRequest"/>
+    </bindings>
+    <bindings scd="~tns:calcolaPremioProdotto">
+      <class ref="com.pass.global.CalcolaPremioProdotto"/>
+    </bindings>
+    <bindings scd="~tns:msgCalcolaPremioProdottoRequest">
+      <class ref="com.pass.global.MsgCalcolaPremioProdottoRequest"/>
+    </bindings>
+    <bindings scd="~tns:calcolaPremioProdottoResponse">
+      <class ref="com.pass.global.CalcolaPremioProdottoResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgCalcolaPremioProdottoResponse">
+      <class ref="com.pass.global.MsgCalcolaPremioProdottoResponse"/>
+    </bindings>
+    <bindings scd="~tns:calcolaPremioResponse">
+      <class ref="com.pass.global.CalcolaPremioResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgCalcolaPremioResponse">
+      <class ref="com.pass.global.MsgCalcolaPremioResponse"/>
+    </bindings>
+    <bindings scd="~tns:calculateLifePremium">
+      <class ref="com.pass.global.CalculateLifePremium"/>
+    </bindings>
+    <bindings scd="~tns:msgCalculateLifePremiumRequest">
+      <class ref="com.pass.global.MsgCalculateLifePremiumRequest"/>
+    </bindings>
+    <bindings scd="~tns:calculateLifePremiumResponse">
+      <class ref="com.pass.global.CalculateLifePremiumResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgCalculateLifePremiumResponse">
+      <class ref="com.pass.global.MsgCalculateLifePremiumResponse"/>
+    </bindings>
+    <bindings scd="~tns:calculatePremium">
+      <class ref="com.pass.global.CalculatePremium"/>
+    </bindings>
+    <bindings scd="~tns:msgCalculatePremiumRequest">
+      <class ref="com.pass.global.MsgCalculatePremiumRequest"/>
+    </bindings>
+    <bindings scd="~tns:calculatePremiumResponse">
+      <class ref="com.pass.global.CalculatePremiumResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgCalculatePremiumResponse">
+      <class ref="com.pass.global.MsgCalculatePremiumResponse"/>
+    </bindings>
+    <bindings scd="~tns:eseguiAzioni">
+      <class ref="com.pass.global.EseguiAzioni"/>
+    </bindings>
+    <bindings scd="~tns:msgEseguiAzioniRequest">
+      <class ref="com.pass.global.MsgEseguiAzioniRequest"/>
+    </bindings>
+    <bindings scd="~tns:eseguiAzioniProdotto">
+      <class ref="com.pass.global.EseguiAzioniProdotto"/>
+    </bindings>
+    <bindings scd="~tns:msgEseguiAzioniProdottoRequest">
+      <class ref="com.pass.global.MsgEseguiAzioniProdottoRequest"/>
+    </bindings>
+    <bindings scd="~tns:eseguiAzioniProdottoResponse">
+      <class ref="com.pass.global.EseguiAzioniProdottoResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgEseguiAzioniProdottoResponse">
+      <class ref="com.pass.global.MsgEseguiAzioniProdottoResponse"/>
+    </bindings>
+    <bindings scd="~tns:eseguiAzioniResponse">
+      <class ref="com.pass.global.EseguiAzioniResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgEseguiAzioniResponse">
+      <class ref="com.pass.global.MsgEseguiAzioniResponse"/>
+    </bindings>
+    <bindings scd="~tns:executeActions">
+      <class ref="com.pass.global.ExecuteActions"/>
+    </bindings>
+    <bindings scd="~tns:msgExecuteActionsRequest">
+      <class ref="com.pass.global.MsgExecuteActionsRequest"/>
+    </bindings>
+    <bindings scd="~tns:executeActionsResponse">
+      <class ref="com.pass.global.ExecuteActionsResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgExecuteActionsResponse">
+      <class ref="com.pass.global.MsgExecuteActionsResponse"/>
+    </bindings>
+    <bindings scd="~tns:getAssets">
+      <class ref="com.pass.global.GetAssets"/>
+    </bindings>
+    <bindings scd="~tns:msgGetAssetsRequest">
+      <class ref="com.pass.global.MsgGetAssetsRequest"/>
+    </bindings>
+    <bindings scd="~tns:getAssetsResponse">
+      <class ref="com.pass.global.GetAssetsResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetAssetsResponse">
+      <class ref="com.pass.global.MsgGetAssetsResponse"/>
+    </bindings>
+    <bindings scd="~tns:getBeni">
+      <class ref="com.pass.global.GetBeni"/>
+    </bindings>
+    <bindings scd="~tns:msgGetBeniRequest">
+      <class ref="com.pass.global.MsgGetBeniRequest"/>
+    </bindings>
+    <bindings scd="~tns:getBeniProdotto">
+      <class ref="com.pass.global.GetBeniProdotto"/>
+    </bindings>
+    <bindings scd="~tns:msgGetBeniProdottoRequest">
+      <class ref="com.pass.global.MsgGetBeniProdottoRequest"/>
+    </bindings>
+    <bindings scd="~tns:getBeniProdottoResponse">
+      <class ref="com.pass.global.GetBeniProdottoResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetBeniProdottoResponse">
+      <class ref="com.pass.global.MsgGetBeniProdottoResponse"/>
+    </bindings>
+    <bindings scd="~tns:getBeniResponse">
+      <class ref="com.pass.global.GetBeniResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetBeniResponse">
+      <class ref="com.pass.global.MsgGetBeniResponse"/>
+    </bindings>
+    <bindings scd="~tns:getClauses">
+      <class ref="com.pass.global.GetClauses"/>
+    </bindings>
+    <bindings scd="~tns:msgGetClausesRequest">
+      <class ref="com.pass.global.MsgGetClausesRequest"/>
+    </bindings>
+    <bindings scd="~tns:getClausesResponse">
+      <class ref="com.pass.global.GetClausesResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetClausesResponse">
+      <class ref="com.pass.global.MsgGetClausesResponse"/>
+    </bindings>
+    <bindings scd="~tns:getClausoleRischiBene">
+      <class ref="com.pass.global.GetClausoleRischiBene"/>
+    </bindings>
+    <bindings scd="~tns:msgGetClausoleRischiBeneRequest">
+      <class ref="com.pass.global.MsgGetClausoleRischiBeneRequest"/>
+    </bindings>
+    <bindings scd="~tns:getClausoleRischiBeneProdotto">
+      <class ref="com.pass.global.GetClausoleRischiBeneProdotto"/>
+    </bindings>
+    <bindings scd="~tns:msgGetClausoleRischiBeneProdottoRequest">
+      <class ref="com.pass.global.MsgGetClausoleRischiBeneProdottoRequest"/>
+    </bindings>
+    <bindings scd="~tns:getClausoleRischiBeneProdottoResponse">
+      <class ref="com.pass.global.GetClausoleRischiBeneProdottoResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetClausoleRischiBeneProdottoResponse">
+      <class ref="com.pass.global.MsgGetClausoleRischiBeneProdottoResponse"/>
+    </bindings>
+    <bindings scd="~tns:getClausoleRischiBeneResponse">
+      <class ref="com.pass.global.GetClausoleRischiBeneResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetClausoleRischiBeneResponse">
+      <class ref="com.pass.global.MsgGetClausoleRischiBeneResponse"/>
+    </bindings>
+    <bindings scd="~tns:getCurrencies">
+      <class ref="com.pass.global.GetCurrencies"/>
+    </bindings>
+    <bindings scd="~tns:msgGetCurrenciesRequest">
+      <class ref="com.pass.global.MsgGetCurrenciesRequest"/>
+    </bindings>
+    <bindings scd="~tns:getCurrenciesResponse">
+      <class ref="com.pass.global.GetCurrenciesResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetCurrenciesResponse">
+      <class ref="com.pass.global.MsgGetCurrenciesResponse"/>
+    </bindings>
+    <bindings scd="~tns:getCurrenciesTax">
+      <class ref="com.pass.global.GetCurrenciesTax"/>
+    </bindings>
+    <bindings scd="~tns:msgGetCurrenciesTaxRequest">
+      <class ref="com.pass.global.MsgGetCurrenciesTaxRequest"/>
+    </bindings>
+    <bindings scd="~tns:getCurrenciesTaxResponse">
+      <class ref="com.pass.global.GetCurrenciesTaxResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetCurrenciesTaxResponse">
+      <class ref="com.pass.global.MsgGetCurrenciesTaxResponse"/>
+    </bindings>
+    <bindings scd="~tns:getDatiTecnici">
+      <class ref="com.pass.global.GetDatiTecnici"/>
+    </bindings>
+    <bindings scd="~tns:msgGetDatiTecniciRequest">
+      <class ref="com.pass.global.MsgGetDatiTecniciRequest"/>
+    </bindings>
+    <bindings scd="~tns:getDatiTecniciResponse">
+      <class ref="com.pass.global.GetDatiTecniciResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetDatiTecniciResponse">
+      <class ref="com.pass.global.MsgGetDatiTecniciResponse"/>
+    </bindings>
+    <bindings scd="~tns:getElencoProdotti">
+      <class ref="com.pass.global.GetElencoProdotti"/>
+    </bindings>
+    <bindings scd="~tns:msgGetElencoProdottiRequest">
+      <class ref="com.pass.global.MsgGetElencoProdottiRequest"/>
+    </bindings>
+    <bindings scd="~tns:getElencoProdottiResponse">
+      <class ref="com.pass.global.GetElencoProdottiResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetElencoProdottiResponse">
+      <class ref="com.pass.global.MsgGetElencoProdottiResponse"/>
+    </bindings>
+    <bindings scd="~tns:getFactors">
+      <class ref="com.pass.global.GetFactors"/>
+    </bindings>
+    <bindings scd="~tns:msgGetFactorsRequest">
+      <class ref="com.pass.global.MsgGetFactorsRequest"/>
+    </bindings>
+    <bindings scd="~tns:getFactorsResponse">
+      <class ref="com.pass.global.GetFactorsResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetFactorsResponse">
+      <class ref="com.pass.global.MsgGetFactorsResponse"/>
+    </bindings>
+    <bindings scd="~tns:getFattoriRischiBene">
+      <class ref="com.pass.global.GetFattoriRischiBene"/>
+    </bindings>
+    <bindings scd="~tns:msgGetFattoriRischiBeneRequest">
+      <class ref="com.pass.global.MsgGetFattoriRischiBeneRequest"/>
+    </bindings>
+    <bindings scd="~tns:getFattoriRischiBeneProdotto">
+      <class ref="com.pass.global.GetFattoriRischiBeneProdotto"/>
+    </bindings>
+    <bindings scd="~tns:msgGetFattoriRischiBeneProdottoRequest">
+      <class ref="com.pass.global.MsgGetFattoriRischiBeneProdottoRequest"/>
+    </bindings>
+    <bindings scd="~tns:getFattoriRischiBeneProdottoResponse">
+      <class ref="com.pass.global.GetFattoriRischiBeneProdottoResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetFattoriRischiBeneProdottoResponse">
+      <class ref="com.pass.global.MsgGetFattoriRischiBeneProdottoResponse"/>
+    </bindings>
+    <bindings scd="~tns:getFattoriRischiBeneResponse">
+      <class ref="com.pass.global.GetFattoriRischiBeneResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetFattoriRischiBeneResponse">
+      <class ref="com.pass.global.MsgGetFattoriRischiBeneResponse"/>
+    </bindings>
+    <bindings scd="~tns:getLogicWarrantySelectionJS">
+      <class ref="com.pass.global.GetLogicWarrantySelectionJS"/>
+    </bindings>
+    <bindings scd="~tns:msgGetLogicWarrantySelectionJSRequest">
+      <class ref="com.pass.global.MsgGetLogicWarrantySelectionJSRequest"/>
+    </bindings>
+    <bindings scd="~tns:getLogicWarrantySelectionJSResponse">
+      <class ref="com.pass.global.GetLogicWarrantySelectionJSResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetLogicWarrantySelectionJSResponse">
+      <class ref="com.pass.global.MsgGetLogicWarrantySelectionJSResponse"/>
+    </bindings>
+    <bindings scd="~tns:getLogicaSelezioneGaranzieJS">
+      <class ref="com.pass.global.GetLogicaSelezioneGaranzieJS"/>
+    </bindings>
+    <bindings scd="~tns:msgGetLogicaSelezioneGaranzieJSRequest">
+      <class ref="com.pass.global.MsgGetLogicaSelezioneGaranzieJSRequest"/>
+    </bindings>
+    <bindings scd="~tns:getLogicaSelezioneGaranzieJSProdotto">
+      <class ref="com.pass.global.GetLogicaSelezioneGaranzieJSProdotto"/>
+    </bindings>
+    <bindings scd="~tns:msgGetLogicaSelezioneGaranzieJSProdottoRequest">
+      <class ref="com.pass.global.MsgGetLogicaSelezioneGaranzieJSProdottoRequest"/>
+    </bindings>
+    <bindings scd="~tns:getLogicaSelezioneGaranzieJSProdottoResponse">
+      <class ref="com.pass.global.GetLogicaSelezioneGaranzieJSProdottoResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetLogicaSelezioneGaranzieJSProdottoResponse">
+      <class ref="com.pass.global.MsgGetLogicaSelezioneGaranzieJSProdottoResponse"/>
+    </bindings>
+    <bindings scd="~tns:getLogicaSelezioneGaranzieJSResponse">
+      <class ref="com.pass.global.GetLogicaSelezioneGaranzieJSResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetLogicaSelezioneGaranzieJSResponse">
+      <class ref="com.pass.global.MsgGetLogicaSelezioneGaranzieJSResponse"/>
+    </bindings>
+    <bindings scd="~tns:getOperations">
+      <class ref="com.pass.global.GetOperations"/>
+    </bindings>
+    <bindings scd="~tns:msgGetOperationsRequest">
+      <class ref="com.pass.global.MsgGetOperationsRequest"/>
+    </bindings>
+    <bindings scd="~tns:getOperationsResponse">
+      <class ref="com.pass.global.GetOperationsResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetOperationsResponse">
+      <class ref="com.pass.global.MsgGetOperationsResponse"/>
+    </bindings>
+    <bindings scd="~tns:getOperazioniProdotto">
+      <class ref="com.pass.global.GetOperazioniProdotto"/>
+    </bindings>
+    <bindings scd="~tns:msgGetOperazioniProdottoRequest">
+      <class ref="com.pass.global.MsgGetOperazioniProdottoRequest"/>
+    </bindings>
+    <bindings scd="~tns:getOperazioniProdottoResponse">
+      <class ref="com.pass.global.GetOperazioniProdottoResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetOperazioniProdottoResponse">
+      <class ref="com.pass.global.MsgGetOperazioniProdottoResponse"/>
+    </bindings>
+    <bindings scd="~tns:getProductsList">
+      <class ref="com.pass.global.GetProductsList"/>
+    </bindings>
+    <bindings scd="~tns:msgGetProductsListRequest">
+      <class ref="com.pass.global.MsgGetProductsListRequest"/>
+    </bindings>
+    <bindings scd="~tns:getProductsListResponse">
+      <class ref="com.pass.global.GetProductsListResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetProductsListResponse">
+      <class ref="com.pass.global.MsgGetProductsListResponse"/>
+    </bindings>
+    <bindings scd="~tns:getQuestionnaire">
+      <class ref="com.pass.global.GetQuestionnaire"/>
+    </bindings>
+    <bindings scd="~tns:msgGetQuestionnaireRequest">
+      <class ref="com.pass.global.MsgGetQuestionnaireRequest"/>
+    </bindings>
+    <bindings scd="~tns:getQuestionnaireResponse">
+      <class ref="com.pass.global.GetQuestionnaireResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetQuestionnaireResponse">
+      <class ref="com.pass.global.MsgGetQuestionnaireResponse"/>
+    </bindings>
+    <bindings scd="~tns:getRischiBene">
+      <class ref="com.pass.global.GetRischiBene"/>
+    </bindings>
+    <bindings scd="~tns:msgGetRischiBeneRequest">
+      <class ref="com.pass.global.MsgGetRischiBeneRequest"/>
+    </bindings>
+    <bindings scd="~tns:getRischiBeneProdotto">
+      <class ref="com.pass.global.GetRischiBeneProdotto"/>
+    </bindings>
+    <bindings scd="~tns:msgGetRischiBeneProdottoRequest">
+      <class ref="com.pass.global.MsgGetRischiBeneProdottoRequest"/>
+    </bindings>
+    <bindings scd="~tns:getRischiBeneProdottoResponse">
+      <class ref="com.pass.global.GetRischiBeneProdottoResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetRischiBeneProdottoResponse">
+      <class ref="com.pass.global.MsgGetRischiBeneProdottoResponse"/>
+    </bindings>
+    <bindings scd="~tns:getRischiBeneResponse">
+      <class ref="com.pass.global.GetRischiBeneResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetRischiBeneResponse">
+      <class ref="com.pass.global.MsgGetRischiBeneResponse"/>
+    </bindings>
+    <bindings scd="~tns:getRisks">
+      <class ref="com.pass.global.GetRisks"/>
+    </bindings>
+    <bindings scd="~tns:msgGetRisksRequest">
+      <class ref="com.pass.global.MsgGetRisksRequest"/>
+    </bindings>
+    <bindings scd="~tns:getRisksResponse">
+      <class ref="com.pass.global.GetRisksResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetRisksResponse">
+      <class ref="com.pass.global.MsgGetRisksResponse"/>
+    </bindings>
+    <bindings scd="~tns:getTechnicalData">
+      <class ref="com.pass.global.GetTechnicalData"/>
+    </bindings>
+    <bindings scd="~tns:msgGetTechnicalDataRequest">
+      <class ref="com.pass.global.MsgGetTechnicalDataRequest"/>
+    </bindings>
+    <bindings scd="~tns:getTechnicalDataResponse">
+      <class ref="com.pass.global.GetTechnicalDataResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetTechnicalDataResponse">
+      <class ref="com.pass.global.MsgGetTechnicalDataResponse"/>
+    </bindings>
+    <bindings scd="~tns:getValuedProduct">
+      <class ref="com.pass.global.GetValuedProduct"/>
+    </bindings>
+    <bindings scd="~tns:msgGetValuedProductRequest">
+      <class ref="com.pass.global.MsgGetValuedProductRequest"/>
+    </bindings>
+    <bindings scd="~tns:getValuedProductResponse">
+      <class ref="com.pass.global.GetValuedProductResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetValuedProductResponse">
+      <class ref="com.pass.global.MsgGetValuedProductResponse"/>
+    </bindings>
+    <bindings scd="~tns:getVehicleInfoes">
+      <class ref="com.pass.global.GetVehicleInfoes"/>
+    </bindings>
+    <bindings scd="~tns:msgGetVehicleInfoesRequest">
+      <class ref="com.pass.global.MsgGetVehicleInfoesRequest"/>
+    </bindings>
+    <bindings scd="~tns:getVehicleInfoesResponse">
+      <class ref="com.pass.global.GetVehicleInfoesResponse"/>
+    </bindings>
+    <bindings scd="~tns:msgGetVehicleInfoesResponse">
+      <class ref="com.pass.global.MsgGetVehicleInfoesResponse"/>
+    </bindings>
+    <bindings scd="~tns:wsGetTechnicalDataInput">
+      <class ref="com.pass.global.WsGetTechnicalDataInput"/>
+    </bindings>
+    <bindings scd="~tns:wsProduct">
+      <class ref="com.pass.global.WsProduct"/>
+    </bindings>
+    <bindings scd="~tns:wsActivityPacket">
+      <class ref="com.pass.global.WsActivityPacket"/>
+    </bindings>
+    <bindings scd="~tns:typeInt32">
+      <class ref="com.pass.global.TypeInt32"/>
+    </bindings>
+    <bindings scd="~tns:wsPacketLevel">
+      <class ref="com.pass.global.WsPacketLevel"/>
+    </bindings>
+    <bindings scd="~tns:wsActivityEntity">
+      <class ref="com.pass.global.WsActivityEntity"/>
+    </bindings>
+    <bindings scd="~tns:wsAgreement">
+      <class ref="com.pass.global.WsAgreement"/>
+    </bindings>
+    <bindings scd="~tns:typeData">
+      <class ref="com.pass.global.TypeData"/>
+    </bindings>
+    <bindings scd="~tns:typeBooleano">
+      <class ref="com.pass.global.TypeBooleano"/>
+    </bindings>
+    <bindings scd="~tns:wsAsset">
+      <class ref="com.pass.global.WsAsset"/>
+    </bindings>
+    <bindings scd="~tns:wsProperty">
+      <class ref="com.pass.global.WsProperty"/>
+    </bindings>
+    <bindings scd="~tns:wsPropListValue">
+      <class ref="com.pass.global.WsPropListValue"/>
+    </bindings>
+    <bindings scd="~tns:typeInt64">
+      <class ref="com.pass.global.TypeInt64"/>
+    </bindings>
+    <bindings scd="~tns:wsPremiumGroup">
+      <class ref="com.pass.global.WsPremiumGroup"/>
+    </bindings>
+    <bindings scd="~tns:wsPremium">
+      <class ref="com.pass.global.WsPremium"/>
+    </bindings>
+    <bindings scd="~tns:wsAssetExtension">
+      <class ref="com.pass.global.WsAssetExtension"/>
+    </bindings>
+    <bindings scd="~tns:wsAssetInstance">
+      <class ref="com.pass.global.WsAssetInstance"/>
+    </bindings>
+    <bindings scd="~tns:wsActivity">
+      <class ref="com.pass.global.WsActivity"/>
+    </bindings>
+    <bindings scd="~tns:wsClause">
+      <class ref="com.pass.global.WsClause"/>
+    </bindings>
+    <bindings scd="~tns:passProClauseType">
+      <class ref="com.pass.global.PassProClauseType"/>
+    </bindings>
+    <bindings scd="~tns:wsFactor">
+      <class ref="com.pass.global.WsFactor"/>
+    </bindings>
+    <bindings scd="~tns:wsStructureField">
+      <class ref="com.pass.global.WsStructureField"/>
+    </bindings>
+    <bindings scd="~tns:passProFactorFormat">
+      <class ref="com.pass.global.PassProFactorFormat"/>
+    </bindings>
+    <bindings scd="~tns:wsListValue">
+      <class ref="com.pass.global.WsListValue"/>
+    </bindings>
+    <bindings scd="~tns:passProLifePremiumGroup">
+      <class ref="com.pass.global.PassProLifePremiumGroup"/>
+    </bindings>
+    <bindings scd="~tns:passProLifePremium">
+      <class ref="com.pass.global.PassProLifePremium"/>
+    </bindings>
+    <bindings scd="~tns:wsActionLevel">
+      <class ref="com.pass.global.WsActionLevel"/>
+    </bindings>
+    <bindings scd="~tns:wsMessage">
+      <class ref="com.pass.global.WsMessage"/>
+    </bindings>
+    <bindings scd="~tns:passProPacket">
+      <class ref="com.pass.global.PassProPacket"/>
+    </bindings>
+    <bindings scd="~tns:passProPacketUnit">
+      <class ref="com.pass.global.PassProPacketUnit"/>
+    </bindings>
+    <bindings scd="~tns:wsQuestionnaire">
+      <class ref="com.pass.global.WsQuestionnaire"/>
+    </bindings>
+    <bindings scd="~tns:wsQuestion">
+      <class ref="com.pass.global.WsQuestion"/>
+    </bindings>
+    <bindings scd="~tns:wsAnswer">
+      <class ref="com.pass.global.WsAnswer"/>
+    </bindings>
+    <bindings scd="~tns:wsAnswerValue">
+      <class ref="com.pass.global.WsAnswerValue"/>
+    </bindings>
+    <bindings scd="~tns:wsQuestCondition">
+      <class ref="com.pass.global.WsQuestCondition"/>
+    </bindings>
+    <bindings scd="~tns:wsQuestTerm">
+      <class ref="com.pass.global.WsQuestTerm"/>
+    </bindings>
+    <bindings scd="~tns:wsAssetSection">
+      <class ref="com.pass.global.WsAssetSection"/>
+    </bindings>
+    <bindings scd="~tns:wsAssetUnit">
+      <class ref="com.pass.global.WsAssetUnit"/>
+    </bindings>
+    <bindings scd="~tns:wsPaymentFrequency">
+      <class ref="com.pass.global.WsPaymentFrequency"/>
+    </bindings>
+    <bindings scd="~tns:passProBeneficiary">
+      <class ref="com.pass.global.PassProBeneficiary"/>
+    </bindings>
+    <bindings scd="~tns:passProExtDiscount">
+      <class ref="com.pass.global.PassProExtDiscount"/>
+    </bindings>
+    <bindings scd="~tns:typeReal">
+      <class ref="com.pass.global.TypeReal"/>
+    </bindings>
+    <bindings scd="~tns:passProIndexType">
+      <class ref="com.pass.global.PassProIndexType"/>
+    </bindings>
+    <bindings scd="~tns:wsUnitInstance">
+      <class ref="com.pass.global.WsUnitInstance"/>
+    </bindings>
+    <bindings scd="~tns:passProCommission">
+      <class ref="com.pass.global.PassProCommission"/>
+    </bindings>
+    <bindings scd="~tns:passProFlex">
+      <class ref="com.pass.global.PassProFlex"/>
+    </bindings>
+    <bindings scd="~tns:wsFormula">
+      <class ref="com.pass.global.WsFormula"/>
+    </bindings>
+    <bindings scd="~tns:wsComplexValue">
+      <class ref="com.pass.global.WsComplexValue"/>
+    </bindings>
+    <bindings scd="~tns:passProQuote">
+      <class ref="com.pass.global.PassProQuote"/>
+    </bindings>
+    <bindings scd="~tns:passProQuoteDevelopment">
+      <class ref="com.pass.global.PassProQuoteDevelopment"/>
+    </bindings>
+    <bindings scd="~tns:passProQuoteDevelopmentColumn">
+      <class ref="com.pass.global.PassProQuoteDevelopmentColumn"/>
+    </bindings>
+    <bindings scd="~tns:passProQuoteDevelopmentRow">
+      <class ref="com.pass.global.PassProQuoteDevelopmentRow"/>
+    </bindings>
+    <bindings scd="~tns:passProWarrantyUnitShare">
+      <class ref="com.pass.global.PassProWarrantyUnitShare"/>
+    </bindings>
+    <bindings scd="~tns:wsVehicle">
+      <class ref="com.pass.global.WsVehicle"/>
+    </bindings>
+    <bindings scd="~tns:wsVehicleClass">
+      <class ref="com.pass.global.WsVehicleClass"/>
+    </bindings>
+    <bindings scd="~tns:wsVehicleUse">
+      <class ref="com.pass.global.WsVehicleUse"/>
+    </bindings>
+    <bindings scd="~tns:wsCompany">
+      <class ref="com.pass.global.WsCompany"/>
+    </bindings>
+    <bindings scd="~tns:wsCurrency">
+      <class ref="com.pass.global.WsCurrency"/>
+    </bindings>
+    <bindings scd="~tns:passProPaymentMethodLifePremium">
+      <class ref="com.pass.global.PassProPaymentMethodLifePremium"/>
+    </bindings>
+    <bindings scd="~tns:passProPaymentMethod">
+      <class ref="com.pass.global.PassProPaymentMethod"/>
+    </bindings>
+    <bindings scd="~tns:passProPremiumRegulationType">
+      <class ref="com.pass.global.PassProPremiumRegulationType"/>
+    </bindings>
+    <bindings scd="~tns:passProRightsGroup">
+      <class ref="com.pass.global.PassProRightsGroup"/>
+    </bindings>
+    <bindings scd="~tns:passProRights">
+      <class ref="com.pass.global.PassProRights"/>
+    </bindings>
+    <bindings scd="~tns:passProTarget">
+      <class ref="com.pass.global.PassProTarget"/>
+    </bindings>
+    <bindings scd="~tns:passProTaxType">
+      <class ref="com.pass.global.PassProTaxType"/>
+    </bindings>
+    <bindings scd="~tns:wsType">
+      <class ref="com.pass.global.WsType"/>
+    </bindings>
+    <bindings scd="~tns:passProWarranty">
+      <class ref="com.pass.global.PassProWarranty"/>
+    </bindings>
+    <bindings scd="~tns:msgRequestHeader">
+      <class ref="com.pass.global.MsgRequestHeader"/>
+    </bindings>
+    <bindings scd="~tns:typeProperty">
+      <class ref="com.pass.global.TypeProperty"/>
+    </bindings>
+    <bindings scd="~tns:wsGetTechnicalDataOutput">
+      <class ref="com.pass.global.WsGetTechnicalDataOutput"/>
+    </bindings>
+    <bindings scd="~tns:msgResponseHeader">
+      <class ref="com.pass.global.MsgResponseHeader"/>
+    </bindings>
+    <bindings scd="~tns:wsGetVehicleInfoesInput">
+      <class ref="com.pass.global.WsGetVehicleInfoesInput"/>
+    </bindings>
+    <bindings scd="~tns:passProVehicleInfo">
+      <class ref="com.pass.global.PassProVehicleInfo"/>
+    </bindings>
+    <bindings scd="~tns:passProVehicleSector">
+      <class ref="com.pass.global.PassProVehicleSector"/>
+    </bindings>
+    <bindings scd="~tns:wsGetVehicleInfoesOutput">
+      <class ref="com.pass.global.WsGetVehicleInfoesOutput"/>
+    </bindings>
+    <bindings scd="~tns:wsAttivita">
+      <class ref="com.pass.global.WsAttivita"/>
+    </bindings>
+    <bindings scd="~tns:wsClausola">
+      <class ref="com.pass.global.WsClausola"/>
+    </bindings>
+    <bindings scd="~tns:wsFattore">
+      <class ref="com.pass.global.WsFattore"/>
+    </bindings>
+    <bindings scd="~tns:wsCampoStruttura">
+      <class ref="com.pass.global.WsCampoStruttura"/>
+    </bindings>
+    <bindings scd="~tns:wsValoreLista">
+      <class ref="com.pass.global.WsValoreLista"/>
+    </bindings>
+    <bindings scd="~tns:wsIstanzaBene">
+      <class ref="com.pass.global.WsIstanzaBene"/>
+    </bindings>
+    <bindings scd="~tns:wsMessaggio">
+      <class ref="com.pass.global.WsMessaggio"/>
+    </bindings>
+    <bindings scd="~tns:wsLivelloAzione">
+      <class ref="com.pass.global.WsLivelloAzione"/>
+    </bindings>
+    <bindings scd="~tns:wsRischio">
+      <class ref="com.pass.global.WsRischio"/>
+    </bindings>
+    <bindings scd="~tns:wsGruppoPremi">
+      <class ref="com.pass.global.WsGruppoPremi"/>
+    </bindings>
+    <bindings scd="~tns:wsPremio">
+      <class ref="com.pass.global.WsPremio"/>
+    </bindings>
+    <bindings scd="~tns:wsProprieta">
+      <class ref="com.pass.global.WsProprieta"/>
+    </bindings>
+    <bindings scd="~tns:wsPropValoreLista">
+      <class ref="com.pass.global.WsPropValoreLista"/>
+    </bindings>
+    <bindings scd="~tns:wsSezioneBene">
+      <class ref="com.pass.global.WsSezioneBene"/>
+    </bindings>
+    <bindings scd="~tns:wsUnitBene">
+      <class ref="com.pass.global.WsUnitBene"/>
+    </bindings>
+    <bindings scd="~tns:wsIstanzaUnit">
+      <class ref="com.pass.global.WsIstanzaUnit"/>
+    </bindings>
+    <bindings scd="~tns:wsProdottoIn">
+      <class ref="com.pass.global.WsProdottoIn"/>
+    </bindings>
+    <bindings scd="~tns:wsGetValuedProductInput">
+      <class ref="com.pass.global.WsGetValuedProductInput"/>
+    </bindings>
+    <bindings scd="~tns:wsGetValuedProductOutput">
+      <class ref="com.pass.global.WsGetValuedProductOutput"/>
+    </bindings>
+    <bindings scd="~tns:wsBeneProdotto">
+      <class ref="com.pass.global.WsBeneProdotto"/>
+    </bindings>
+    <bindings scd="~tns:wsGetFactorsInput">
+      <class ref="com.pass.global.WsGetFactorsInput"/>
+    </bindings>
+    <bindings scd="~tns:wsGetFactorsOutput">
+      <class ref="com.pass.global.WsGetFactorsOutput"/>
+    </bindings>
+    <bindings scd="~tns:wsProdotto">
+      <class ref="com.pass.global.WsProdotto"/>
+    </bindings>
+    <bindings scd="~tns:wsBene">
+      <class ref="com.pass.global.WsBene"/>
+    </bindings>
+    <bindings scd="~tns:wsPacchettoAttivita">
+      <class ref="com.pass.global.WsPacchettoAttivita"/>
+    </bindings>
+    <bindings scd="~tns:wsLivelloPacchetto">
+      <class ref="com.pass.global.WsLivelloPacchetto"/>
+    </bindings>
+    <bindings scd="~tns:wsEntitaAttivita">
+      <class ref="com.pass.global.WsEntitaAttivita"/>
+    </bindings>
+    <bindings scd="~tns:wsConvenzione">
+      <class ref="com.pass.global.WsConvenzione"/>
+    </bindings>
+    <bindings scd="~tns:wsDivisa">
+      <class ref="com.pass.global.WsDivisa"/>
+    </bindings>
+    <bindings scd="~tns:wsFrazionamento">
+      <class ref="com.pass.global.WsFrazionamento"/>
+    </bindings>
+    <bindings scd="~tns:wsTipo">
+      <class ref="com.pass.global.WsTipo"/>
+    </bindings>
+    <bindings scd="~tns:wsGetCurrencyInput">
+      <class ref="com.pass.global.WsGetCurrencyInput"/>
+    </bindings>
+    <bindings scd="~tns:wsGetCurrencyOutput">
+      <class ref="com.pass.global.WsGetCurrencyOutput"/>
+    </bindings>
+    <bindings scd="~tns:wsJsContainer">
+      <class ref="com.pass.global.WsJsContainer"/>
+    </bindings>
+    <bindings scd="~tns:wsJsElement">
+      <class ref="com.pass.global.WsJsElement"/>
+    </bindings>
+    <bindings scd="~tns:wsGetAssetsInput">
+      <class ref="com.pass.global.WsGetAssetsInput"/>
+    </bindings>
+    <bindings scd="~tns:wsGetAssetOutput">
+      <class ref="com.pass.global.WsGetAssetOutput"/>
+    </bindings>
+    <bindings scd="~tns:wsOperazione">
+      <class ref="com.pass.global.WsOperazione"/>
+    </bindings>
+    <bindings scd="~tns:wsGetOperationsInput">
+      <class ref="com.pass.global.WsGetOperationsInput"/>
+    </bindings>
+    <bindings scd="~tns:wsGetOperationsOutput">
+      <class ref="com.pass.global.WsGetOperationsOutput"/>
+    </bindings>
+    <bindings scd="~tns:wsOperation">
+      <class ref="com.pass.global.WsOperation"/>
+    </bindings>
+    <bindings scd="~tns:wsCalculatePremiumInput">
+      <class ref="com.pass.global.WsCalculatePremiumInput"/>
+    </bindings>
+    <bindings scd="~tns:wsCalculatePremiumOutput">
+      <class ref="com.pass.global.WsCalculatePremiumOutput"/>
+    </bindings>
+    <bindings scd="~tns:wsGetRisksInput">
+      <class ref="com.pass.global.WsGetRisksInput"/>
+    </bindings>
+    <bindings scd="~tns:wsGetRisksOutput">
+      <class ref="com.pass.global.WsGetRisksOutput"/>
+    </bindings>
+    <bindings scd="~tns:wsGetProductsListInput">
+      <class ref="com.pass.global.WsGetProductsListInput"/>
+    </bindings>
+    <bindings scd="~tns:wsGetProductsListOutput">
+      <class ref="com.pass.global.WsGetProductsListOutput"/>
+    </bindings>
+    <bindings scd="~tns:wsExecuteActionsInput">
+      <class ref="com.pass.global.WsExecuteActionsInput"/>
+    </bindings>
+    <bindings scd="~tns:wsExecuteActionsOutput">
+      <class ref="com.pass.global.WsExecuteActionsOutput"/>
+    </bindings>
+    <bindings scd="~tns:wsGetCurrencyTaxInput">
+      <class ref="com.pass.global.WsGetCurrencyTaxInput"/>
+    </bindings>
+    <bindings scd="~tns:passProCurrencyTax">
+      <class ref="com.pass.global.PassProCurrencyTax"/>
+    </bindings>
+    <bindings scd="~tns:wsCalculateLifePremiumInput">
+      <class ref="com.pass.global.WsCalculateLifePremiumInput"/>
+    </bindings>
+    <bindings scd="~tns:wsCalculateLifePremiumOutput">
+      <class ref="com.pass.global.WsCalculateLifePremiumOutput"/>
+    </bindings>
+    <bindings scd="~tns:wsGetQuestionnaireInput">
+      <class ref="com.pass.global.WsGetQuestionnaireInput"/>
+    </bindings>
+    <bindings scd="~tns:passProExtensionData">
+      <class ref="com.pass.global.PassProExtensionData"/>
+    </bindings>
+    <bindings scd="~tns:wsGetQuestionnaireOutput">
+      <class ref="com.pass.global.WsGetQuestionnaireOutput"/>
+    </bindings>
+    <bindings scd="~tns:wsGetClausesInput">
+      <class ref="com.pass.global.WsGetClausesInput"/>
+    </bindings>
+    <bindings scd="~tns:wsGetClausesOutput">
+      <class ref="com.pass.global.WsGetClausesOutput"/>
+    </bindings>
+    <bindings scd="~tns:wsGetLogicWarrantySelectionJSInput">
+      <class ref="com.pass.global.WsGetLogicWarrantySelectionJSInput"/>
+    </bindings>
+    <bindings scd="~tns:wsGetLogicWarrantySelectionJSOutput">
+      <class ref="com.pass.global.WsGetLogicWarrantySelectionJSOutput"/>
+    </bindings>
+    <bindings scd="~tns:wsJavaScriptContainer">
+      <class ref="com.pass.global.WsJavaScriptContainer"/>
+    </bindings>
+    <bindings scd="~tns:wsJavaScriptElement">
+      <class ref="com.pass.global.WsJavaScriptElement"/>
+    </bindings>
+  </bindings>
+</bindings>
+
