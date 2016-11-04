@@ -12,6 +12,12 @@ public class HttpActivatorBean implements ActivatorHandler
 {
 	private final Logger logger = Logger.getLogger(getClass());
 	
+	
+	
+	
+	
+	
+	
 	@Gateway
 	public Message<?> getHandling(Message<?> request)
 	{
